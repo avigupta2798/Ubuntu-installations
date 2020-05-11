@@ -1,6 +1,7 @@
 # Ubuntu-installations
 > Immediate installations of packages and repositories after installing Ubuntu
-A new LTS version is released every two years. You can [Download] (https://ubuntu.com/download/desktop) it from the official Ubuntu website.
+
+A new LTS version is released every two years. You can [Download](https://ubuntu.com/download/desktop) it from the official Ubuntu website.
 
 ## Getting Started
 These instructions will get you a heads-up of the first and most important thing to do after installing any version of Ubuntu.
