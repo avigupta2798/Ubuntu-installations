@@ -14,3 +14,13 @@ In order to play media files like MP#, MPEG4, AVI etc, you’ll need to install 
 ```
 sudo apt install ubuntu-restricted-extras
 ```
+Now that the repositories are set and codecs are installed, it is time to get software.
+- Google Chrome ```wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb``` 
+                ```sudo dpkg -i google-chrome-stable_current_amd64.deb```
+                
+- VLC ```sudo snap install vlc```
+- GIMP
+- Spotify
+- Skype
+- Atom
+- Android Studio
