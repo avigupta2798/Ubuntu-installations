@@ -26,3 +26,6 @@ Now that the repositories are set and codecs are installed, it is time to get so
 - Atom              ```sudo snap install atom --classic```
 - Android Studio    ```sudo apt install openjdk-11-jdk```
                     ```sudo snap install android-studio --classic```
+                    
+- VS Code           ```sudo snap install code --classic```
+- Octave            ```sudo apt-get install octave```
