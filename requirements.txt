@@ -1,0 +1,16 @@
+numpy
+pandas
+beautifulsoup4
+html5lib
+scipy
+scikit-learn
+matplotlib
+opencv-python
+requests
+Keras
+tensorflow
+SQLAlchemy
+sklearn
+jupyter
+django
+xlrd
