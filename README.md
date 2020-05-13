@@ -29,3 +29,20 @@ Now that the repositories are set and codecs are installed, it is time to get so
                     
 - VS Code           ```sudo snap install code --classic```
 - Octave            ```sudo apt-get install octave```
+
+You can also install pip yourself to ensure you have the latest version.
+```
+python3 -m pip install --user --upgrade pip
+```
+[virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) is used to manage Python packages for different projects.
+```
+python3 -m pip install --user virtualenv
+```
+To create a virtual environment, go to your project’s directory and run venv.
+```
+python3 -m venv env
+```
+Instead of installing packages individually, pip allows you to declare all dependencies in a [Requirements](https://pip.pypa.io/en/latest/user_guide/#requirements-files) File. pip to install all of the packages in this file using the -r flag:
+```
+pip install -r requirements.txt
+```
