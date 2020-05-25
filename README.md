@@ -46,3 +46,7 @@ Instead of installing packages individually, pip allows you to declare all depen
 ```
 pip install -r requirements.txt
 ```
+Install git by:
+```
+sudo apt-get install git
+```
