@@ -29,7 +29,7 @@ Now that the repositories are set and codecs are installed, it is time to get so
                     
 - VS Code           ```sudo snap install code --classic```
 - Octave            ```sudo apt-get install octave```
-- Telegram          ```sudo snap install telegram-sergiusens```
+- Telegram          ```sudo snap install telegram-desktop```
 
 You can also install pip yourself to ensure you have the latest version.
 ```
