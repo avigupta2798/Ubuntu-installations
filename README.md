@@ -35,7 +35,7 @@ Now that the repositories are set and codecs are installed, it is time to get so
 
 You can also install pip yourself to ensure you have the latest version.
 ```
-python3 -m pip install --user --upgrade pip
+sudo apt install python3-pip
 ```
 [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) is used to manage Python packages for different projects.
 ```
