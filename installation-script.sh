@@ -14,4 +14,6 @@ wget https://zoom.us/client/latest/zoom_amd64.deb
 sudo dpkg -i zoom_amd64.deb
 sudo apt install python3-pip -y
 sudo apt-get install git -y
+python3 -m pip install --user virtualenv
+sudo apt install python3.8-venv
 sudo apt update && sudo apt upgrade -y

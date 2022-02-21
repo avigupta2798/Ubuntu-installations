@@ -14,3 +14,4 @@ sklearn
 jupyter
 django
 xlrd
+django-heroku
