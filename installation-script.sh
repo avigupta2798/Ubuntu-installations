@@ -12,6 +12,9 @@ sudo snap install code --classic
 sudo snap install telegram-desktop
 wget https://zoom.us/client/latest/zoom_amd64.deb
 sudo dpkg -i zoom_amd64.deb
+sudo add-apt-repository ppa:umang/indicator-stickynotes -y
+sudo apt-get update -y
+sudo apt-get install indicator-stickynotes -y
 sudo apt install python3-pip -y
 sudo apt-get install git -y
 python3 -m pip install --user virtualenv
