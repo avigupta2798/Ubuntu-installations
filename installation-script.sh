@@ -21,5 +21,11 @@ sudo apt install qbittorrent -y
 sudo apt install python3-pip -y
 sudo apt-get install git -y
 python3 -m pip install --user virtualenv
-sudo apt install python3.8-venv
+sudo apt install python3-virtualenv
+mkdir ~/home/teresematlb/VirtualEnv/
+cd ~/home/teresematlb/VirtualEnv/
+virtualenv local
+source ~/home/teresematlb/VirtualEnv/local/bin/activate
+sudo apt install libpq-dev python3-dev
+pip install -r requirements.txt
 sudo apt update && sudo apt upgrade -y
